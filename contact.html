@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- General Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Your Co., Ltd for travel inquiries and bookings.">
+    <title>Contact Us - Your Company</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/images/logo.ico" sizes="16x16 32x32 48x48 512x512" type="image/ico">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/Logo_en.jpg" alt="Company Logo" style="width: 120px; height: auto;">
+            Your Company
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container text-center">
+            <h1 class="display-4 text-white">Contact Us</h1>
+            <p class="lead text-white">We'd love to hear from you! Reach out with any questions or inquiries.</p>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p><a href="mailto:info@yourcompany.com">info@yourcompany.com</a></p>
+                            <p><a href="mailto:info@yourcompanymyanmar.com">info@yourcompanymyanmar.com</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p><a href="tel:+959775114027">+95 XXXXXXXXX</a></p>
+                            <p><a href="tel:+959965114027">+95 XXXXXXXXX</a></p>
+                            <p><a href="tel:+959263111123">+95 XXXXXXXXX</a></p>
+                            <p><a href="tel:+959420058589">+95 XXXXXXXXX</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>your company address.</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/yourcompany" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://t.me/yourcompany" target="_blank"><i class="fab fa-telegram"></i></a>
+                        <a href="tel:+959XXXXXXXX"><i class="fas fa-phone"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form" action="https://formspree.io/f/yourformspreecode" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number (Optional)</label>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9+\s-()]*">
+                        </div>
+                        <div class="form-group">
+                            <label for="serviceType">Service Interest</label>
+                            <select id="serviceType" name="serviceType" required>
+                                <option value="">Select a service</option>
+                                <option value="tour-packages">Tour Packages</option>
+                                <option value="hotel-booking">Hotel Booking</option>
+                                <option value="transportation">Transportation</option>
+                                <option value="visa-services">Visa Services</option>
+                                <option value="custom-tour">Custom Tour</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Please describe your travel plans or inquiry in detail..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="privacy" required>
+                                I agree to the <a href="privacy-policy.html" class="privacy-link" target="_blank">Privacy Policy</a> and consent to the processing of my personal data
+                            </label>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <!-- Company Column -->
+            <div class="footer-column">
+                <h4>Company</h4>
+                <ul>
+					<li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Column -->
+            <div class="footer-column">
+                <h4>Contact</h4>
+                <p><strong>Address:</strong> your company address.</p>
+                <p><strong>Phone:</strong> 09 XXXXXXXXX<br>09 XXXXXXXXX, 09 XXXXXXXXX</p>
+                <p><strong>Email:</strong> 
+                    <a href="mailto:info@yourcompany.com">info@yourcompany.com</a><br>
+                    <a href="mailto:info@yourcompanymyanmar.com">info@yourcompanymyanmar.com</a>
+                </p>
+            </div>
+
+            <!-- Follow Us Column -->
+            <div class="footer-column">
+                <h4>Follow Us</h4>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/yourcompany"><img src="images/facebook-icon.png" alt="Facebook" class="social-icon"></a>
+                    <a href="https://t.me/yourcompany"><img src="images/telegram-icon.png" alt="Telegram" class="social-icon"></a>
+                    <a href="tel:+959XXXXXXXX"><img src="images/phone-icon.png" alt="Phone" class="social-icon"></a>
+                </div>
+                <div class="footer-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.27991330806!2d-74.2598666876814!3d40.69767006398786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c250b382157a1d%3A0x6f7a51a1b5e7b3c9!2sNew%20York%2C%20USA!5e0!3m2!1sen!2smm!4v1714024530700!5m2!1sen!2smm" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; Your Company. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <a href="#" class="scroll-to-top" id="scrollToTopBtn">
+        <img src="images/logo.ico" alt="Scroll to Top" class="scroll-logo">
+        <span class="scroll-text">Back to Top</span>
+    </a>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html> 
