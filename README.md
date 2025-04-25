@@ -82,13 +82,9 @@ The project includes various images organized in the following categories:
 - Contact form functionality
 - Service showcase
 - Destination galleries
-- Multi-language support (English and Myanmar)
-- Social media integration
+- Social media link integration
 
 ## Getting Started
 1. Clone the repository
 2. Open `index.html` in your web browser
 3. For development, use a local server to handle the contact form functionality
-
-## Note
-This project includes both new and old image assets (stored in `images/` and `old_images/` directories respectively) to maintain version history and backup. 
